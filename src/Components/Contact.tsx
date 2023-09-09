@@ -90,6 +90,7 @@ import { slideIn } from "../utils/motion"
           <input
              type="text"
              name="name"
+             required
              value={form.name}
              onChange={inputHandleChange}
              placeholder="Enter your name"
@@ -106,6 +107,7 @@ import { slideIn } from "../utils/motion"
             Email:
           </span>
           <input
+             required
              type="email"
              name="email"
              value={form.email}
@@ -124,6 +126,7 @@ import { slideIn } from "../utils/motion"
             Message:
           </span>
           <textarea
+            required
              rows={7}
              name="message"
              value={form.message}
