@@ -40,7 +40,7 @@ type WorkSampleCardProps ={
          <div className='absolute left-0 top-0 flex justify-end m-3 card-img_hover'>
           <div 
           onClick={()=> window.open(source_code_link,"_blank")}
-           className='bg-slate-500  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+           className='bg-slate-500 hover:bg-[#6d28d9]   w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
           >
             <img src="assets\Github-icon.svg" alt="github"
             className='w-3/4 h-3/4 object-contain'
