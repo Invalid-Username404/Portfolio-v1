@@ -166,16 +166,43 @@ export const navLinks = [
               tags: [
                 {
                   name: "react",
-                  color: "text-neutral-950",
+                  color: "text-[#22d3ee]",
                 },
               
                 {
                   name: "Material-UI",
-                  color: "pink-text-gradient",
+                  color: "text-[#4f46e5]",
                 },
               ],
               image: "/assets/Gaming-App.webp",
               source_code_link: "https:/github.com/Mohamed208209/Gaming-App",
+              deployment:{
+                on:"Vercel",
+                link:"https://gaming-mbybtojf6-mohamed208209.vercel.app/"
+              },
+            },
+
+            {
+              name: "Gaming App",
+              description:
+                "An app intended for discussing and searching games ",
+              tags: [
+                {
+                  name: "react",
+                  color: "text-[#22d3ee]",
+                },
+              
+                {
+                  name: "Material-UI",
+                  color: "text-[#4f46e5]",
+                },
+              ],
+              image: "/assets/Gaming-App.webp",
+              source_code_link: "https:/github.com/Mohamed208209/Gaming-App",
+              deployment:{
+                on:"Vercel",
+                link:"https://gaming-mbybtojf6-mohamed208209.vercel.app/"
+              },
             },
             {
               name: "Gaming App",
@@ -184,51 +211,37 @@ export const navLinks = [
               tags: [
                 {
                   name: "react",
-                  color: "text-neutral-950",
+                  color: "text-[#22d3ee]",
                 },
               
                 {
                   name: "Material-UI",
-                  color: "pink-text-gradient",
+                  color: "text-[#4f46e5]",
                 },
               ],
               image: "/assets/Gaming-App.webp",
               source_code_link: "https:/github.com/Mohamed208209/Gaming-App",
+              deployment:{
+                on:"Vercel",
+                link:"https://gaming-mbybtojf6-mohamed208209.vercel.app/"
+              },
             },
             {
-              name: "Gaming App",
+              name: "Quote Generator",
               description:
-                "An app intended for discussing and searching games ",
+                "A simple app that displays random quotes ",
               tags: [
                 {
                   name: "react",
-                  color: "text-neutral-950",
+                  color: "text-[#22d3ee]",
                 },
               
-                {
-                  name: "Material-UI",
-                  color: "pink-text-gradient",
-                },
-              ],
-              image: "/assets/Gaming-App.webp",
-              source_code_link: "https:/github.com/Mohamed208209/Gaming-App",
-            },
-            {
-              name: "Gaming App",
-              description:
-                "An app intended for discussing and searching games ",
-              tags: [
-                {
-                  name: "react",
-                  color: "text-neutral-950",
-                },
-              
-                {
-                  name: "Material-UI",
-                  color: "pink-text-gradient",
-                },
-              ],
-              image: "/assets/Gaming-App.webp",
-              source_code_link: "https:/github.com/Mohamed208209/Gaming-App",
+                 ],
+              image: "/assets/random-quote-generator.png",
+              source_code_link: "https://github.com/Mohamed208209/Random-Quote",
+              deployment:{
+                on:"Vercel",
+                link:"https://random-quote-lovat.vercel.app/"
+              },
             }
           ]

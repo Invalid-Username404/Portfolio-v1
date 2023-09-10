@@ -16,11 +16,16 @@ type WorkSampleCardProps ={
         color: string;
     }[];
     image: string;
-    source_code_link: string;}
+    source_code_link: string;
+     deployment: {
+      on: string;
+      link: string;
+  
   }
+  }}
 
  const WorkSampleCard = ({id,sample}:WorkSampleCardProps)=>{
-  const {name,description,tags,source_code_link,image} = sample
+  const {name,description,tags,source_code_link,image,deployment} = sample
 
   return(
     <motion.div
@@ -52,12 +57,17 @@ type WorkSampleCardProps ={
        { tags.map((tag,id)=>(
         <div key={`${tag.name}-${id}-yep`} className='bg-[#dcfce7] rounded-full p-1'>
         <p 
-         className={`text-[14px] ${tag.color} `}
+         className={`text-[14px]  ${tag.color}`}
         > 
          #{tag.name}
         </p>
         </div>
        ))}
+      </div>
+      <div className=' h-[5vh] hover:text-[#6d28d9]  p-2 text-cyan-400'>
+        
+
+        <p><a target='_blank' href={`${deployment.link}`}>Deployment link: {`${deployment.on}`}</a> </p>
       </div>
      </Tilt>
     </motion.div>
