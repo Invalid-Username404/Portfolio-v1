@@ -87,9 +87,8 @@ type WorkSampleCardProps ={
      variants={fadeIn("","",0.1,1)}
      className='mt-3 text-cyan-100 text-[17px] max-w-3xl leading-[30px]'
      >
-       I know I don't have significant Projects yet, but I intend to make a lot of amazing
-       and solid ones that will showcase my abilities.These below are just placeholders
-       for my future work.  
+      These below are just placeholders for my future work. I intend to make a lot of more
+     advanced and solid ones to showcase my abilities in the near future.  
      </motion.p>
     </div>
     <div className='mt-20 flex justify-center align-top flex-row flex-wrap gap-7  '>{
