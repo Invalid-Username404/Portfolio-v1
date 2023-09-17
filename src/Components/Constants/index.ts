@@ -188,6 +188,47 @@ export const projects = [
   },
 
   {
+    name: "Cryptonian",
+    description: "An app for cryptocurrencies, their News, Rankings and statistics ",
+    tags: [
+      {
+        name: "react",
+        color: "text-[#22d3ee]",
+      },
+      {
+        name: "RapidAPI",
+        color: "text-[#1c1917]",
+      },
+
+      {
+        name: "ant Design",
+        color: "text-[#4a044e]",
+      },
+
+      {
+        name: "Redux",
+        color: "text-[#047857]",
+      },
+
+      {
+        name: "Recharts",
+        color: "text-[#5b21b6]",
+      },
+      {
+        name: "react-router-dom",
+        color: "text-[#e11d48]",
+      }
+    
+    ],
+    image: "/assets/Cryptonian.png",
+    source_code_link: "https://github.com/Mohamed208209/Cryptonian",
+    deployment: {
+      on: "Vercel",
+      link: "https://cryptonian-mu.vercel.app/",
+    },
+  },
+
+  {
     name: "Quote Generator",
     description: "A simple app that displays random quotes ",
     tags: [
