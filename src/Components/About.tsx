@@ -46,7 +46,7 @@ const ServiceCard = ({index, title, icon}:ServiceCardProps)=>{
     <motion.p 
      className='mt-1 text-gray-300 text-[20px] max-w-3xl leading-[27px]'
      variants={fadeIn("","",0.1,1)}>
-      I'm beginner web-app developer with experience in Javascript, Typescript,
+      I'm a web-app developer with experience in Javascript, Typescript, Redux
       and React.js. I'm a quick and effortful learner, good listener,careful and
       eager for the incoming knowledge.
 
