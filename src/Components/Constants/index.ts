@@ -209,6 +209,10 @@ export const projects = [
         name: "Redux",
         color: "text-[#047857]",
       },
+      {
+        name: "Axios",
+        color: "text-[#86198f]",
+      },
 
       {
         name: "Recharts",
@@ -225,6 +229,47 @@ export const projects = [
     deployment: {
       on: "Vercel",
       link: "https://cryptonian-mu.vercel.app/",
+    },
+  },
+  //  //  /// / / / /
+  {
+    name: "Youtube-Displayer",
+    description: "A youtube-like app for videos and channels",
+    tags: [
+      {
+        name: "react",
+        color: "text-[#22d3ee]",
+      },
+      {
+        name: "RapidAPI",
+        color: "text-[#1c1917]",
+      },
+
+      {
+        name: "Material UI",
+        color: "text-[#4f46e5]",
+      },
+
+      {
+        name: "react-router-dom",
+        color: "text-[#e11d48]",
+      },
+      {
+        name: "Axios",
+        color: "text-[#86198f]",
+      },
+      {
+        name: "React Player",
+        color: "text-[#064e3b]",
+      },
+
+    
+    ],
+    image: "/assets/Youtube-Displayer.png",
+    source_code_link: "https://github.com/Mohamed208209/Youtube-Displayer",
+    deployment: {
+      on: "Vercel",
+      link: "https://youtube-displayer.vercel.app/",
     },
   },
 
