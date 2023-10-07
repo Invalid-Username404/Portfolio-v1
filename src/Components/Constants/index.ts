@@ -76,7 +76,7 @@ export const experiences = [
     company_name: "Private",
     icon: "/assets/Javascript-icon.svg",
     iconBg: "#383E56",
-    date: "Apr 2022",
+    date: "Apr 2020",
     points: [
       "This is the first programming language I learn.",
       "I have used it as launch point for my programming journey.",
@@ -90,7 +90,7 @@ export const experiences = [
     company_name: "Private",
     icon: "/assets/Typescript-icon.svg",
     iconBg: "#383E56",
-    date: "Aug 2022",
+    date: "Aug 2020",
     points: [
       "Typescript is a great tool that adds to the power of javascript.",
       "It helped me write  better code and extend my knowledge",
@@ -103,7 +103,7 @@ export const experiences = [
     company_name: "Private",
     icon: "/assets/React-icon.svg",
     iconBg: "#383E56",
-    date: "Aug 2022",
+    date: "Aug 2020",
     points: [
       "This is the first Javascript library I try.",
       "I have used it as launch point for my developing learning.",
