@@ -46,10 +46,11 @@ const ServiceCard = ({index, title, icon}:ServiceCardProps)=>{
     <motion.p 
      className='mt-1 text-gray-300 text-[20px] max-w-3xl leading-[27px]'
      variants={fadeIn("","",0.1,1)}>
-      I'm a web-app developer with experience in Javascript, Typescript, Redux
-      and React.js. I'm a quick and effortful learner, good listener,careful and
-      eager for the incoming knowledge.
-
+        I'm a web-app developer with experience in Javascript, Typescript,
+      Javascript frameworks/libraries like React and Next.js, Redux StateManegment,
+       Nodejs backend technology, and MongoDB database
+       . I'm a quick, effortful learner, a good listener, and careful and
+       eager for incoming knowledge.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service,index)=>(
