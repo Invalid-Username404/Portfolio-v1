@@ -226,7 +226,7 @@ export const projects = [
     source_code_link: "https://github.com/Mohamed208209/The-Threader",
     deployment: {
       on: "Vercel",
-      link: "https://the-threader-j5l6e646k-mohamed208209.vercel.app/",
+      link: "https://the-threader.vercel.app/",
     },
   },
   {
@@ -273,7 +273,6 @@ export const projects = [
       link: "https://cryptonian-mu.vercel.app/",
     },
   },
-  //  //  /// / / / /
   {
     name: "Youtube-Displayer",
     description: "A youtube-like app for videos and channels",
