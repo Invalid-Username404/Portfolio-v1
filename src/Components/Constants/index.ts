@@ -186,7 +186,49 @@ export const projects = [
       link: "https://portfolio-v1-3368.vercel.app/",
     },
   },
+  {
+    name: "The Threader",
+    description: "A full stack Threads-like app built using NextJs, Mongoose, and Clerk.It's pretty massive project, and I'm still adding more features.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "text-[#22d3ee]",
+      },
 
+      {
+        name: "tailwindcss",
+        color: "text-[#4a044e]",
+      },
+
+      {
+        name: "clerk",
+        color: "text-[#6b21a8]",
+      },
+
+      {
+        name: "Radix",
+        color: "text-[#020617]",
+      },
+      {
+        name: "Mongoose",
+        color: "text-[#166534]",
+      },
+      {
+        name: "React Hook Form",
+        color: "text-[#9d174d]",
+      },
+      {
+        name: "UploadThing",
+        color: "text-[#0369a1]",
+      }
+    ],
+    image: "/assets/Threader.png",
+    source_code_link: "https://github.com/Mohamed208209/The-Threader",
+    deployment: {
+      on: "Vercel",
+      link: "https://the-threader-j5l6e646k-mohamed208209.vercel.app/",
+    },
+  },
   {
     name: "Cryptonian",
     description: "An app for cryptocurrencies, their News, Rankings and statistics ",
@@ -318,28 +360,7 @@ export const projects = [
       on: "Vercel",
       link: "https://moralist208-chat-app.vercel.app/",
     },
-  },
+  }
 
-  {
-    name: "Gaming App",
-    description:
-      "An app intended for discussing and searching games(definitely going replace this one) ",
-    tags: [
-      {
-        name: "react",
-        color: "text-[#22d3ee]",
-      },
-
-      {
-        name: "Material-UI",
-        color: "text-[#4f46e5]",
-      },
-    ],
-    image: "/assets/Gaming-App.webp",
-    source_code_link: "https:/github.com/Mohamed208209/Gaming-App",
-    deployment: {
-      on: "Vercel",
-      link: "https://gaming-mbybtojf6-mohamed208209.vercel.app/",
-    },
-  },
+  
 ];
