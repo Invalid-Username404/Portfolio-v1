@@ -87,8 +87,8 @@ type WorkSampleCardProps ={
      variants={fadeIn("","",0.1,1)}
      className='mt-3 text-cyan-100 text-[17px] max-w-3xl leading-[30px]'
      >
-      These below are just placeholders for my future work. I intend to make a lot of more
-     advanced and solid ones to showcase my abilities in the near future.  
+      These are some of my projects. I have more that you exist on my <a rel='noopener' target="_blank" className="text-[#6d28d9]" href="https://vercel.com/dashboard"> Vercel Dashboard </a>.
+      Check the source code on my  <a rel='noopener' target="_blank" className="text-[#6d28d9]" href="https://github.com/Mohamed208209">Github Account </a>   
      </motion.p>
     </div>
     <div className='mt-20 flex justify-center align-top flex-row flex-wrap gap-7  '>{
