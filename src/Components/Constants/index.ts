@@ -188,7 +188,8 @@ export const projects = [
   },
   {
     name: "The Threader",
-    description: "A full stack Threads-like app built using NextJs, Mongoose, and Clerk.It's pretty massive project, and I'm still adding more features.",
+    description:
+      "A full stack Threads-like app built using NextJs, Mongoose, and Clerk.It's pretty massive project, and I'm still adding more features.",
     tags: [
       {
         name: "NextJs",
@@ -220,7 +221,7 @@ export const projects = [
       {
         name: "UploadThing",
         color: "text-[#0369a1]",
-      }
+      },
     ],
     image: "/assets/Threader.png",
     source_code_link: "https://github.com/Mohamed208209/The-Threader",
@@ -231,7 +232,8 @@ export const projects = [
   },
   {
     name: "Cryptonian",
-    description: "An app for cryptocurrencies, their News, Rankings and statistics ",
+    description:
+      "An app for cryptocurrencies, their News, Rankings and statistics ",
     tags: [
       {
         name: "react",
@@ -263,8 +265,7 @@ export const projects = [
       {
         name: "react-router-dom",
         color: "text-[#e11d48]",
-      }
-    
+      },
     ],
     image: "/assets/Cryptonian.png",
     source_code_link: "https://github.com/Mohamed208209/Cryptonian",
@@ -303,8 +304,6 @@ export const projects = [
         name: "React Player",
         color: "text-[#064e3b]",
       },
-
-    
     ],
     image: "/assets/Youtube-Displayer.png",
     source_code_link: "https://github.com/Mohamed208209/Youtube-Displayer",
@@ -313,7 +312,107 @@ export const projects = [
       link: "https://youtube-displayer.vercel.app/",
     },
   },
+  {
+    name: "Survey Form",
+    description: "FreeCodeCamp Responsive Web Design Certification",
+    tags: [
+      {
+        name: "HTML",
+        color: "text-[#1d4ed8]",
+      },
+      {
+        name: "CSS",
+        color: "text-[#c2410c]",
+      },
+    ],
+    image: "/assets/Survey-Form.png",
+    source_code_link: "https://github.com/Mohamed208209/Survey-Form",
+    deployment: {
+      on: "Vercel",
+      link: "https://survey-form-5roxobt6a-mohamed208209.vercel.app/",
+    },
+  },
+  {
+    name: "Product Landing Page",
+    description: "FreeCodeCamp Responsive Web Design Certification",
+    tags: [
+      {
+        name: "HTML",
+        color: "text-[#1d4ed8]",
+      },
+      {
+        name: "CSS",
+        color: "text-[#c2410c]",
+      },
+    ],
+    image: "/assets/Gotham-Products.png",
+    source_code_link: "https://github.com/Mohamed208209/Product-Landing-Page",
+    deployment: {
+      on: "Vercel",
+      link: "https://product-landing-page-rosy.vercel.app/",
+    },
+  },
+  {
+    name: "Personal Portfolio Page",
+    description: "FreeCodeCamp Responsive Web Design Certification",
+    tags: [
+      {
+        name: "HTML",
+        color: "text-[#1d4ed8]",
+      },
+      {
+        name: "CSS",
+        color: "text-[#c2410c]",
+      },
+    ],
+    image: "/assets/Portfolio-Webpage.png",
+    source_code_link: "https://github.com/Mohamed208209/Personal-Portfolio-Webpage",
+    deployment: {
+      on: "Vercel",
+      link: "https://personal-portfolio-webpage-eta.vercel.app/",
+    },
+  },
+  {
+    name: "Tribute Page",
+    description: "FreeCodeCamp Responsive Web Design Certification",
+    tags: [
+      {
+        name: "HTML",
+        color: "text-[#1d4ed8]",
+      },
+      {
+        name: "CSS",
+        color: "text-[#c2410c]",
+      },
+    ],
+    image: "/assets/Tribute-page.png",
+    source_code_link: "https://github.com/Mohamed208209/Tribute-Page",
+    deployment: {
+      on: "Vercel",
+      link: "https://tribute-page-gilt-two.vercel.app/",
+    },
+  },
 
+  {
+    name: "Technical Documentation Page",
+    description: "FreeCodeCamp Responsive Web Design Certification",
+    tags: [
+      {
+        name: "HTML",
+        color: "text-[#1d4ed8]",
+      },
+      {
+        name: "CSS",
+        color: "text-[#c2410c]",
+      },
+    ],
+    image: "/assets/Mathematics-Overview.png",
+    source_code_link: "https://github.com/Mohamed208209/Technical-Documentation-Page",
+    deployment: {
+      on: "Vercel",
+      link: "https://technical-documentation-page-five.vercel.app/",
+    },
+  },
   {
     name: "Quote Generator",
     description: "A simple app that displays random quotes ",
@@ -330,36 +429,4 @@ export const projects = [
       link: "https://random-quote-lovat.vercel.app/",
     },
   },
-  {
-    name: "Chat App",
-    description:
-      "Chat app  with google and facebook login methods, the app is build using react-chat-engine. I believe it's somewhat old library and not that reliable , but it's free(for 30 days) so...sorry ",
-    tags: [
-      {
-        name: "react",
-        color: "text-[#22d3ee]",
-      },
-
-      {
-        name: "Google's Firebase",
-        color: "text-[#fcd34d]",
-      },
-      {
-        name: "Google",
-        color: "text-[#7dd3fc]",
-      },
-      {
-        name: "Facebook",
-        color: "text-[#1d4ed8]",
-      },
-    ],
-    image: "/assets/chat-app.png",
-    source_code_link: "https://github.com/Mohamed208209/Moralist208-Chat-App",
-    deployment: {
-      on: "Vercel",
-      link: "https://moralist208-chat-app.vercel.app/",
-    },
-  }
-
-  
 ];
