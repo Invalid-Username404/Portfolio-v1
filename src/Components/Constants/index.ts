@@ -233,7 +233,7 @@ export const projects = [
   {
     name: "Cryptonian",
     description:
-      "An app for cryptocurrencies, their News, Rankings and statistics ",
+      "An app for cryptocurrencies, their News, Rankings and statistics",
     tags: [
       {
         name: "react",
@@ -329,7 +329,7 @@ export const projects = [
     source_code_link: "https://github.com/Mohamed208209/Survey-Form",
     deployment: {
       on: "Vercel",
-      link: "https://survey-form-5roxobt6a-mohamed208209.vercel.app/",
+      link: "https://survey-form-moralist208.vercel.app/",
     },
   },
   {
@@ -349,7 +349,7 @@ export const projects = [
     source_code_link: "https://github.com/Mohamed208209/Product-Landing-Page",
     deployment: {
       on: "Vercel",
-      link: "https://product-landing-page-rosy.vercel.app/",
+      link: "https://product-landing-page-moralist208.vercel.app/",
     },
   },
   {
@@ -369,7 +369,7 @@ export const projects = [
     source_code_link: "https://github.com/Mohamed208209/Personal-Portfolio-Webpage",
     deployment: {
       on: "Vercel",
-      link: "https://personal-portfolio-webpage-eta.vercel.app/",
+      link: "https://personal-portfolio-webpage-moralist208.vercel.app/",
     },
   },
   {
@@ -389,7 +389,7 @@ export const projects = [
     source_code_link: "https://github.com/Mohamed208209/Tribute-Page",
     deployment: {
       on: "Vercel",
-      link: "https://tribute-page-gilt-two.vercel.app/",
+      link: "https://tribute-page-moralist208.vercel.app/",
     },
   },
 
@@ -410,7 +410,7 @@ export const projects = [
     source_code_link: "https://github.com/Mohamed208209/Technical-Documentation-Page",
     deployment: {
       on: "Vercel",
-      link: "https://technical-documentation-page-five.vercel.app/",
+      link: "https://technical-documentation-page-moralist208.vercel.app/",
     },
   },
   {
