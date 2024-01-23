@@ -49,8 +49,7 @@ const ServiceCard = ({index, title, icon}:ServiceCardProps)=>{
         I'm a web developer with experience in Javascript, Typescript,
       Javascript frameworks/libraries like React and Next.js, Redux State-management,
        Nodejs backend technology,ExpressJs, relational and non-relational databases like MongoDB, and
-       quality assurance tools like Jest and Cypress. I'm a quick, effortful learner, a good listener, careful and
-       eager for incoming knowledge.
+       quality assurance tools like Jest and Cypress.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service,index)=>(

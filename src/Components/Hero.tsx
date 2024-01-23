@@ -18,7 +18,7 @@ export const Hero = () => {
             </span>
            </h1>
            <p className={`${styles.heroSubText} mt-2 text-white`}>
-            I am web developer
+            a web developer
 
            </p>
           </div>
