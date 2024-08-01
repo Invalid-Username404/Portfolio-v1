@@ -20,13 +20,13 @@ export const services = [
   },
 
   {
-    title: "Content Creator",
-    icon: "../assets/Content-icon.svg",
+    title: "React Developer",
+    icon: "/assets/React-icon.svg",
   },
 
   {
-    title: "React Developer",
-    icon: "/assets/React-icon.svg",
+    title: "Next Developer",
+    icon: "/assets/nextjs.svg",
   },
 ];
 
