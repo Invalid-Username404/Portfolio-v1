@@ -42,8 +42,8 @@ const about = () => {
         variants={fadeIn("", "", 0.1, 1)}
       >
         I'm a web developer with experience in Javascript, Typescript,
-        Javascript frameworks/libraries like React and Next.js, Redux
-        State-management, Nodejs backend technology,ExpressJs, relational and
+        Javascript frameworks/libraries like React and Next.js, Redux State
+        management, Nodejs backend technology, ExpressJs, relational and
         non-relational databases like MongoDB, and quality assurance tools like
         Jest and Cypress.
       </motion.p>
