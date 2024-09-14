@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { navLinks } from "./Constants";
@@ -9,11 +9,24 @@ import "/assets/Close.svg";
 export const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 640) {
+        setToggle(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <nav
       className={`styles.paddingX w-full flex items-center py-5
-      fixed top-0 z-50 bg-black 
-      `}
+      fixed top-0 z-50 bg-black`}
+      role="navigation"
+      aria-label="Main navigation"
     >
       <div
         className="w-full flex justify-between items-center
@@ -28,24 +41,22 @@ export const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src="/assets/Logo.svg"
-            alt="logo"
-            className="w-9 rounded-full
-            bg-cyan-700 h-9 object-contain "
-          />
           <p className=" hover:text-purple-500 text-gray-400 text-[20px] font-medium   cursor-pointer ">
-            Mohamed Portfolio
+            Mohamed Ibrahim
           </p>
         </Link>
-        <ul className="list-none mx-5 hidden sm:flex flex-row gap-10 ">
+        <ul
+          className="list-none mx-5 hidden sm:flex flex-row gap-10"
+          role="menubar"
+        >
           {navLinks.map((link) => (
             <li
               key={link.id}
               className={`${
                 active === link.title ? "text-purple-500" : "text-gray-400"
-              } hover:text-purple-500 text-[20px] font-medium cursor-pointer `}
+              } hover:text-purple-500 text-[20px] font-medium cursor-pointer transition-colors duration-300`}
               onClick={() => setActive(link.title)}
+              role="menuitem"
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>

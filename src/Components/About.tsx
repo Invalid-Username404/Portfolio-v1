@@ -12,17 +12,22 @@ type ServiceCardProps = {
 
 const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
   return (
-    <Tilt className="xs:w-[250px]  flex flex-wrap w-[25vw] ml-2 mr-2 flex-grow">
+    <Tilt className="xs:w-[250px] flex flex-wrap w-[25vw] ml-2 mr-2 flex-grow">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full green-pink-gradient p-[1px] "
+        className="w-full green-pink-gradient p-[1px]"
       >
         <div
           className="bg-black rounded-[20px] py-5 min-h-[280px] flex
-          justify-evenly items-center flex-col 
-         "
+          justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img
+            src={icon}
+            alt={`${title} icon`}
+            className="w-16 h-16 object-contain"
+            width="64"
+            height="64"
+          />
           <h4 className="text-white font-bold text-center">{title}</h4>
         </div>
       </motion.div>
@@ -34,8 +39,8 @@ const about = () => {
   return (
     <>
       <motion.div variants={textVariant(0)}>
-        <p className={styles.sectionSubText}> About:</p>
-        <h3 className={styles.sectionHeadText}>Overview...</h3>
+        <p className={styles.sectionSubText}>About:</p>
+        <h2 className={styles.sectionHeadText}>Overview...</h2>
       </motion.div>
       <motion.p
         className="mt-1 text-gray-300 text-[20px] max-w-3xl leading-[27px]"
